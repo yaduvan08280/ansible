@@ -1,0 +1,9 @@
+---
+- name : first basic playbook 
+  hosts : localhost
+
+  tasks: 
+  - name : test connectivity 
+    ping :
+  - name : "print output" 
+    debug : msg="Alright!" 
